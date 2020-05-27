@@ -2,7 +2,7 @@ package uploadingfiles.storage;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties("uploadingfiles/storage")
+@ConfigurationProperties("storage")
 public class StorageProperties {
 
 	/**

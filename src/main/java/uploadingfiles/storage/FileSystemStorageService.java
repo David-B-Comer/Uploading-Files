@@ -1,4 +1,4 @@
-package storage;
+package uploadingfiles.storage;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
@@ -98,7 +98,7 @@ public class FileSystemStorageService implements StorageService {
 			Files.createDirectories(rootLocation);
 		}
 		catch (IOException e) {
-			throw new StorageException("Could not initialize storage", e);
+			throw new StorageException("Could not initialize uploadingfiles.storage", e);
 		}
 	}
 }

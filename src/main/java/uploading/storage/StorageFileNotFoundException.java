@@ -1,4 +1,4 @@
-package uploadingfiles.storage;
+package uploading.storage;
 
 public class StorageFileNotFoundException extends StorageException {
 

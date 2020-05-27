@@ -1,4 +1,4 @@
-package uploadingfiles;
+package uploading;
 
 import java.io.IOException;
 import java.util.stream.Collectors;
@@ -19,8 +19,8 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import uploadingfiles.storage.StorageFileNotFoundException;
-import uploadingfiles.storage.StorageService;
+import uploading.storage.StorageFileNotFoundException;
+import uploading.storage.StorageService;
 
 @Controller
 public class FileUploadController {

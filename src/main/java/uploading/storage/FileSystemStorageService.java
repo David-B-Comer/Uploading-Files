@@ -1,4 +1,4 @@
-package uploadingfiles.storage;
+package uploading.storage;
 
 import java.io.IOException;
 import java.io.InputStream;

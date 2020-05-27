@@ -1,4 +1,4 @@
-package uploadingfiles;
+package uploading;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
-import uploadingfiles.storage.StorageProperties;
-import uploadingfiles.storage.StorageService;
+import uploading.storage.StorageProperties;
+import uploading.storage.StorageService;
 
 @SpringBootApplication
 @EnableConfigurationProperties(StorageProperties.class)
